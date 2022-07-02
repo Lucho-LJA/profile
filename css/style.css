@@ -1,3 +1,61 @@
+body{
+display: flex;
+flex-direction: column;
+gap: 5rem;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+.header{
+    display: flex;
+    background-color: blue;
+    border-bottom-right-radius: 80%;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.picture-info-sup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin:2rem 0 0 2rem;
+    box-shadow: 1px 1px rgb(116, 115, 115);
+}
+.picture-info{
+    max-width: 200px;
+    max-height: 200px;
+    padding: 0;
+}
+.name{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: -2rem 0 0 0;
+}
+.my-info{
+    background-color: white;
+    margin: 2rem 2rem 0 1px;
+    padding-left: 1rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px rgb(116, 115, 115);
+}
+.text-info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    text-align: justify;
+    padding-right: 1rem;
+    
+}
+.container-icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+    padding-right: 1rem;
+}
 .icon-16x16{
     height: 16px;
     width: 16px;
